@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".BmiFragment">
+
+    <TextView
+        android:id="@+id/std_id"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_margin="8dp"
+        android:gravity="center"
+        android:text="191-15-2382"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/weight_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="Enter Weight (KG)"
+        android:inputType="number"
+        android:textColorHint="#00ACC1" />
+
+    <EditText
+        android:id="@+id/Height_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:hint="Enter Height (Inch)"
+        android:inputType="number"
+        android:textColorHint="#FB8C00" />
+
+    <Button
+        android:id="@+id/calculate_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate" />
+</LinearLayout>

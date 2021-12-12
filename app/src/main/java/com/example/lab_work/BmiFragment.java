@@ -38,7 +38,7 @@ public class BmiFragment extends Fragment {
             if(bmi>25){compliment="overweight";} else {compliment="Underweight";}
             Toast.makeText(getActivity(), "Status=" + compliment+" Score =" + String.format("%.2f",bmi), Toast.LENGTH_SHORT).show();
         });
-
+/*dipdatta*/
 
 
         return view ;
